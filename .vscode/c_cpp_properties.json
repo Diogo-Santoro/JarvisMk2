@@ -10,12 +10,12 @@
             "includePath": [
                 "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/include",
                 "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/variants/mega",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                 "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
@@ -24,12 +24,12 @@
                 "path": [
                     "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/include",
                     "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/variants/mega",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                     "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
