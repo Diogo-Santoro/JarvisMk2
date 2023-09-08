@@ -8,29 +8,29 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/User/Documents/Projects/JarvisMk2/include",
-                "c:/Users/User/Documents/Projects/JarvisMk2/src",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/variants/mega",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/include",
+                "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/variants/mega",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/User/Documents/Projects/JarvisMk2/include",
-                    "c:/Users/User/Documents/Projects/JarvisMk2/src",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/variants/mega",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/User/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/include",
+                    "C:/Users/diasg/OneDrive/Documentos/Projects/JarvisMk2/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/diasg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
@@ -45,7 +45,7 @@
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++11",
-            "compilerPath": "C:/Users/User/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerPath": "C:/Users/diasg/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
             "compilerArgs": [
                 "-mmcu=atmega2560",
                 ""
