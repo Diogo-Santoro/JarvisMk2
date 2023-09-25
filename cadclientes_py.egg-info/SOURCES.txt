@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-cadclientes_py.egg-info/PKG-INFO
-cadclientes_py.egg-info/SOURCES.txt
-cadclientes_py.egg-info/dependency_links.txt
-cadclientes_py.egg-info/top_level.txt
