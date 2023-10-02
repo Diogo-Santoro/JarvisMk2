@@ -1,6 +1,0 @@
-{
-    "configuration": "cpu=atmega2560",
-    "board": "arduino:avr:mega",
-    "port": "COM1",
-    "sketch": "src\\test.py-ino\\arduino_control\\arduino_control.ino"
-}
