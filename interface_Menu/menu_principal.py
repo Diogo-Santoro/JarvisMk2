@@ -1,15 +1,16 @@
 from customtkinter import *
+import subprocess
 import customtkinter as ctk
 from PIL import Image
 
 def funcaoBotao1():
-    # Adicione a ação desejada para o botão "Menu de Drinks"
-    pass
+    subprocess.Popen(["python", "drink_options.py"])
+    
 
 janela = ctk.CTk()
 janela.title("Menu Principal")
 janela.iconbitmap("icone.ico")
-janela.geometry("500x500")
+janela.geometry("500x500")  
 ctk.set_appearance_mode("dark")
 
 
