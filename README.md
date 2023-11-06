@@ -5,4 +5,4 @@ Extensions VS Code-
 
 Arduino (extensão oficial microsoft)
 PlatformIO IDE
-
+pip install pillow
