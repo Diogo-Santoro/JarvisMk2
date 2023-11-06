@@ -17,9 +17,6 @@ def funcaoBotao3():
 def funcaoBotao4():
     pass
 
-def funcaoBotaoVoltar():
-    pass
-
 
 janela2 = ctk.CTk()
 janela2.iconbitmap("icone.ico")
@@ -40,7 +37,7 @@ botao1 = ctk.CTkButton(janela2, text="Drink 1", command=funcaoBotao1, font=botao
 botao2 = ctk.CTkButton(janela2, text="Drink 2", command=funcaoBotao2, font=botao_font, fg_color="Chartreuse4", hover_color="Chartreuse3", border_color="")
 botao3 = ctk.CTkButton(janela2, text="Drink 3", command=funcaoBotao3, font=botao_font, fg_color="Chartreuse4", hover_color="Chartreuse3", border_color="")
 botao4 = ctk.CTkButton(janela2, text="Drink 4", command=funcaoBotao4, font=botao_font, fg_color="Chartreuse4", hover_color="Chartreuse3", border_color="")
-botaoVoltar = ctk.CTkButton(janela2, text="Voltar ao Menu", command=funcaoBotaoVoltar, font=ctk.CTkFont("Georgia", size=(29)), fg_color="DarkRed", hover_color="FireBrick", border_color="", width=300)
+botaoVoltar = ctk.CTkButton(janela2, text="Voltar ao Menu", command=quit, font=ctk.CTkFont("Georgia", size=(29)), fg_color="DarkRed", hover_color="FireBrick", border_color="", width=300)
 
 botao1.place(x=180, y=120)
 botao2.place(x=180, y=190)
