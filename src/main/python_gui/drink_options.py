@@ -1,5 +1,5 @@
 import tkinter as tk
-from PIL import Image, ImageTk
+# from PIL import Image, ImageTk
 from Controller import *
 
 def sair():
@@ -23,14 +23,14 @@ def botaoForaSair(event):
 
 root = tk.Tk()
 root.title("Opções de Drinks")
-#root.iconbitmap("img/icone.ico")
+# root.iconbitmap(r"C:\Users\diogo\OneDrive\Área de Trabalho\Projects\JarvisMk2\src\main\interface.py\img\icone.ico")
 root.geometry("500x500")
 
-#imagem_pil = Image.open("C:/Users/Dominggues/Desktop/Jarvis/JarvisMk2/interface.py/img/img.png")
-#imagem_tk = ImageTk.PhotoImage(imagem_pil)
+# imagem_pil = Image.open(r"C:\Users\diogo\OneDrive\Área de Trabalho\Projects\JarvisMk2\src\main\interface.py\img\img.png")
+# imagem_tk = ImageTk.PhotoImage(imagem_pil)
 
-#label_fundo = tk.Label(root, '''image= imagem_tk''')
-#label_fundo.place(x=0, y=0, relwidth=1, relheight=1)
+# label_fundo = tk.Label(root, '''image= imagem_tk''')
+# label_fundo.place(x=0, y=0, relwidth=1, relheight=1)
 
 
 tittle_font = ("Georgia", 25)
@@ -38,10 +38,10 @@ tittle = tk.Label(root, text=" - SELECIONE O DRINK -", font=tittle_font, fg="bla
 tittle.place(relx=0.5, rely=0.1, anchor=tk.CENTER)
 
 botao_font = ("Georgia", 15)
-botao1 = tk.Button(root, text="Drink 1", command=iniciar_primeira_bebida(), font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0) 
-botao2 = tk.Button(root, text="Drink 2", command="", font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
-botao3 = tk.Button(root, text="Drink 3", command="", font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
-botao4 = tk.Button(root, text="Drink 4", command="", font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
+botao1 = tk.Button(root, text="Drink 1", command=iniciar_bebida1, font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0) 
+botao2 = tk.Button(root, text="Drink 2", command=iniciar_bebida2, font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
+botao3 = tk.Button(root, text="Drink 3", command=iniciar_bebida3, font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
+botao4 = tk.Button(root, text="Drink 4", command=iniciar_bebida4, font=botao_font, bg="white", fg="black", borderwidth=3,bd=0, highlightthickness=0)
 botaoSair = tk.Button(root, text="Voltar ao Menu", command=sair, font=botao_font, bg="DarkRed", fg="white", borderwidth=3,bd=0, highlightthickness=0)
 
 
