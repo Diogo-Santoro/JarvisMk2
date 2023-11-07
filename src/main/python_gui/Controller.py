@@ -1,6 +1,6 @@
 from gui import *
 
-mac_adress = "XX:XX:XX:XX:XX:XX"
+mac_adress = "98:da:50:00:dc:da"
  
 def iniciar_bebida1():
     comando = 1
